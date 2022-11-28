@@ -48,7 +48,6 @@ then
   git clone https://github.com/morrownr/88x2bu-20210702.git
   cd 88x2bu-20210702/
   ./install-driver.sh
-  modprobe 88x2bu
 else
   echo "Ya se encuentra el driver 88x2bu instalado, así que NO se procede a realizar la instalación."
 fi
