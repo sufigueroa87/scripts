@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# script to install some programs on Ubuntu 22.04
 # author: sufigueroa87
 # date: 2022-11-26
 
@@ -23,14 +24,14 @@ echo "******************************************"
 apt-get -y upgrade
 
 
-echo "SNAPD, GIT, CURL"
+echo "SNAPD, GIT, CURL, NET-TOOLS"
 echo "******************************************"
-echo "SNAPD, GIT, CURL"
+echo "SNAPD, GIT, CURL, NET-TOOLS"
 echo "******************************************"
-echo "SNAPD, GIT, CURL"
+echo "SNAPD, GIT, CURL, NET-TOOLS"
 echo "******************************************"
-# instalar snapd
-apt install -y snapd git curl
+# instalar snapd, git, curl, net-tools
+apt install -y snapd git curl net-tools
 
 
 echo "DRIVER WIFI"
