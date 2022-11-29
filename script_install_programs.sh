@@ -44,6 +44,16 @@ echo "******************************************"
 snap install obs-studio
 
 
+echo "VLC"
+echo "******************************************"
+echo "VLC"
+echo "******************************************"
+echo "VLC"
+echo "******************************************"
+# instalar vlc
+snap install vlc
+
+
 echo "DRIVER WIFI"
 echo "******************************************"
 echo "DRIVER WIFI"
