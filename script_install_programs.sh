@@ -101,6 +101,16 @@ else
 fi
 
 
+echo "openjdk-18"
+echo "******************************************"
+echo "openjdk-18"
+echo "******************************************"
+echo "openjdk-18"
+echo "******************************************"
+# openjdk-18
+apt install -y openjdk-18-jdk
+
+
 echo "Intellij Idea"
 echo "******************************************"
 echo "Intellij Idea"
