@@ -24,6 +24,17 @@ echo "******************************************"
 apt-get -y upgrade
 
 
+echo "DISCORD"
+echo "******************************************"
+echo "DISCORD"
+echo "******************************************"
+echo "DISCORD"
+echo "******************************************"
+# discord
+wget https://dl.discordapp.net/apps/linux/0.0.21/discord-0.0.21.deb
+dpkg -i discord-0.0.21.deb
+
+
 echo "SNAPD, GIT, CURL, NET-TOOLS"
 echo "******************************************"
 echo "SNAPD, GIT, CURL, NET-TOOLS"
