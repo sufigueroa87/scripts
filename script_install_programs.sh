@@ -24,17 +24,6 @@ echo "******************************************"
 apt-get -y upgrade
 
 
-echo "DISCORD"
-echo "******************************************"
-echo "DISCORD"
-echo "******************************************"
-echo "DISCORD"
-echo "******************************************"
-# discord
-wget https://dl.discordapp.net/apps/linux/0.0.21/discord-0.0.21.deb
-dpkg -i discord-0.0.21.deb
-
-
 echo "SNAPD, GIT, CURL, NET-TOOLS"
 echo "******************************************"
 echo "SNAPD, GIT, CURL, NET-TOOLS"
@@ -43,6 +32,19 @@ echo "SNAPD, GIT, CURL, NET-TOOLS"
 echo "******************************************"
 # instalar snapd, git, curl, net-tools
 apt install -y snapd git curl net-tools
+
+
+echo "OBS"
+echo "******************************************"
+echo "OBS"
+echo "******************************************"
+echo "OBS"
+echo "******************************************"
+# instalar obs
+snap install obs-studio
+
+
+
 
 
 echo "DRIVER WIFI"
