@@ -44,9 +44,6 @@ echo "******************************************"
 snap install obs-studio
 
 
-
-
-
 echo "DRIVER WIFI"
 echo "******************************************"
 echo "DRIVER WIFI"
@@ -219,19 +216,6 @@ echo "GNOME-SCREENSHOT"
 echo "******************************************"
 # gnome-screenshot
 apt install gnome-screenshot
-
-
-echo "SMARTGIT"
-echo "******************************************"
-echo "SMARTGIT"
-echo "******************************************"
-echo "SMARTGIT"
-echo "******************************************"
-# SmartGit 22.1
-wget https://www.syntevo.com/downloads/smartgit/smartgit-22_1_1.deb
-dpkg -i smartgit*.deb
-apt --fix-broken install
-
 
 
 echo "AUTOREMOVE"
