@@ -108,7 +108,7 @@ echo "******************************************"
 echo "openjdk-18"
 echo "******************************************"
 # openjdk-18
-apt install -y openjdk-18-jdk
+apt install -y openjdk-19-jdk
 
 
 echo "Intellij Idea"
