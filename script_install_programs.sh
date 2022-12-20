@@ -256,7 +256,17 @@ echo "******************************************"
 echo "GNOME-SCREENSHOT"
 echo "******************************************"
 # gnome-screenshot
-apt install gnome-screenshot
+apt install -y gnome-screenshot
+
+
+echo "GHEX"
+echo "******************************************"
+echo "GHEX"
+echo "******************************************"
+echo "GHEX"
+echo "******************************************"
+# ghex
+apt install -y ghex
 
 
 echo "AUTOREMOVE"
